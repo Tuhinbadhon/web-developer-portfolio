@@ -1,0 +1,42 @@
+/* shared styles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  padding: 15px 35px;
+  font-weight: 700;
+}
+
+/* nav related styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+}
