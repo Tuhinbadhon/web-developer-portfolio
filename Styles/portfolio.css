@@ -208,7 +208,7 @@ footer {
   margin-right: 25px;
 }
 .footer-column {
-  width: 70%;
+  width: 100%;
 }
 .contact input[type="text"],
 .contact input[type="email"],
